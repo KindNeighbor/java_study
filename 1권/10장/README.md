@@ -1,4 +1,4 @@
-Chapter 10 inheritance
+#Chapter 10 inheritance
 
 1. 어떤 클래스를 상속을 받아 확장할 때에는 extends라는 예약어를 사용한다.
 
