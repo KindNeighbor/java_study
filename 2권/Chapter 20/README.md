@@ -29,7 +29,7 @@
 
 ## 7. Integer 값을 16진법으로 표현하려면 어떤 메소드를 사용해야 하나요?
 
-    Integer클래스의 toHexString() 메소드를 호출하면 매개변수의 값을 2진법으로 나타낸다.
+    Integer클래스의 toHexString() 메소드를 호출하면 매개변수의 값을 16진법으로 나타낸다.
 
 ## 8. 속성(Properties)과 환경(Environment) 값의 차이는 무엇인가요?
 
