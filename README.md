@@ -21,7 +21,7 @@
  - private 접근 제한자: 단어 뜻 그대로 개인적인 것이라 외부에서 사용될 수 없도록 한다.
  - default 접근 제한: 같은 패키지에 소속된 클래스에서만 사용할 수 있도록 한다.
 
-- JVM의 메모리 구조에 대해서 설명해 주세요.
+### JVM의 메모리 구조에 대해서 설명해 주세요.
 - JVM은 어떤 방식으로 코드를 해석하고 실행시키는지 흐름에 맞게 설명해 주세요. (Java 실행 흐름)
 - Garbage Collector은 무엇이고, Parallel GC와 CMS GC, G1 GC의 큰 차이는 무엇인지 설명해주세요. (mark-sweep-compact, concurrency-sweep, garbage-first)
 - Java 8 버전에 추가된 중요 기능들에 대하여서 설명해주세요.
