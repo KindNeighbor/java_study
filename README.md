@@ -22,22 +22,38 @@
  - default 접근 제어자 : 같은 패키지에 소속된 클래스에서만 사용할 수 있도록 한다.
  - protected 접근 제어자 : 같은 패키지 또는 자식 클래스에서 사용할 수 있도록 한다.
  - public 접근 제어자 : 단어 뜻 그대로 외부 클래스가 자유롭게 사용할 수 있도록 한다.
- - private -> default -> protected -> public 순으로 보다 많은 접근을 허용
+ - private -> default -> protected -> public 순으로 점점 보다 많은 접근을 허용
 
 ### JVM의 메모리 구조에 대해서 설명해 주세요.
+![image](https://user-images.githubusercontent.com/97837003/170873375-1b0bcbbc-60b1-4b0a-98c9-1a51c99cc032.png)
+
+
 ### JVM은 어떤 방식으로 코드를 해석하고 실행시키는지 흐름에 맞게 설명해 주세요. (Java 실행 흐름)
+
 ### Garbage Collector은 무엇이고, Parallel GC와 CMS GC, G1 GC의 큰 차이는 무엇인지 설명해주세요. (mark-sweep-compact, concurrency-sweep, garbage-first)
+
 ### Java 8 버전에 추가된 중요 기능들에 대하여서 설명해주세요.
+
 ### Java는 Call By Value일까요, Call By Reference 일까요?
+
 ### Shallow Copy와 Deep Copy의 차이는 무엇인가요? 자바에서 Deep Copy를 하기 위해서는 무엇을 사용하여야 하나요?
-- Java Reflection이란 무엇이고, 어떨 때 사용되는 것인가요?
-- Java Instrumentation이란 무엇이고 사용했을 때 어떤 장점이 있을까요?
-- Java Stream API의 특징은 무엇이 있나요?
-- Java Lambda는 왜 만들어졌고, 어느 때 주로 사용할까요?
-- Java의 Functional interface는 무엇인가요?
-- foreach를 사용할 수 있는 자료구조는 어떤 인터페이스를 상속 받고 있나요?
-- iterator와 iterable 차이는 무엇인가요?
-- Fast-fail iterator는 무엇이고 어떤 것을 위해 사용되는 건가요?
+
+### Java Reflection이란 무엇이고, 어떨 때 사용되는 것인가요?
+
+### Java Instrumentation이란 무엇이고 사용했을 때 어떤 장점이 있을까요?
+
+### Java Stream API의 특징은 무엇이 있나요?
+
+### Java Lambda는 왜 만들어졌고, 어느 때 주로 사용할까요?
+
+### Java의 Functional interface는 무엇인가요?
+
+### foreach를 사용할 수 있는 자료구조는 어떤 인터페이스를 상속 받고 있나요?
+
+### iterator와 iterable 차이는 무엇인가요?
+
+### Fast-fail iterator는 무엇이고 어떤 것을 위해 사용되는 건가요?
+
 - 자바의 synchronized 키워드에 대해 설명해주시고 Reentrant Lock와의 차이는 무엇인지 말씀해주세요.
 - Java의 synchronized Lock 범위에 대해서 알려주세요. (Class Lock, Instance Lock)
 - volatile 키워드에 대해 설명해 주세요.
