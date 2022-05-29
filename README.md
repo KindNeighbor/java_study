@@ -1,6 +1,6 @@
 # Java (자바 관련 질문. 추가중)
 
-### Q. Managed - Unmanaged 언어의 차이는 무엇이고 어떤 장, 단점이 있나요?
+### Q .Managed - Unmanaged 언어의 차이는 무엇이고 어떤 장, 단점이 있나요?
   
   - Managed : CLR이나 JVM같은 런타임에서 실행이 관리되는 코드
     - 장점 
