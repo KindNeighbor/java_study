@@ -1,6 +1,6 @@
 # Java
 
-- Managed - Unmanaged 언어의 차이는 무엇이고 어떤 장, 단점이 있나요?
+### Managed - Unmanaged 언어의 차이는 무엇이고 어떤 장, 단점이 있나요?
   - Managed : CLR이나 JVM같은 런타임에서 실행이 관리되는 코드
   - 장점 
     - 메모리 관리, 보안, 스레딩에 관련된 서비스를 JVM(CLR)에서 제공해준다. 
@@ -15,7 +15,7 @@
   - 단점 
     - 확장성의 한계를 가진다. 
   
-- Java 접근 제어자에는 무엇이 있는지 설명해주시고 Protect와 Private는 어느 시점에 어떻게 사용될 수 있는지 이야기 해주세요.
+### Java 접근 제어자에는 무엇이 있는지 설명해주시고 Protect와 Private는 어느 시점에 어떻게 사용될 수 있는지 이야기 해주세요.
 - JVM의 메모리 구조에 대해서 설명해 주세요.
 - JVM은 어떤 방식으로 코드를 해석하고 실행시키는지 흐름에 맞게 설명해 주세요. (Java 실행 흐름)
 - Garbage Collector은 무엇이고, Parallel GC와 CMS GC, G1 GC의 큰 차이는 무엇인지 설명해주세요. (mark-sweep-compact, concurrency-sweep, garbage-first)
