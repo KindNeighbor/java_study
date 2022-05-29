@@ -16,6 +16,11 @@
       - 확장성의 한계를 가진다. 
   
 ### Java 접근 제어자에는 무엇이 있는지 설명해주시고 Protect와 Private는 어느 시점에 어떻게 사용될 수 있는지 이야기 해주세요.
+ - public 접근 제한자: 단어 뜻 그대로 외부 클래스가 자유롭게 사용할 수 있도록 한다
+ - protected 접근 제한자: 같은 패키지 또는 자식 클래스에서 사용할 수 있도록 한다.
+ - private 접근 제한자: 단어 뜻 그대로 개인적인 것이라 외부에서 사용될 수 없도록 한다.
+ - default 접근 제한: 같은 패키지에 소속된 클래스에서만 사용할 수 있도록 한다.
+
 - JVM의 메모리 구조에 대해서 설명해 주세요.
 - JVM은 어떤 방식으로 코드를 해석하고 실행시키는지 흐름에 맞게 설명해 주세요. (Java 실행 흐름)
 - Garbage Collector은 무엇이고, Parallel GC와 CMS GC, G1 GC의 큰 차이는 무엇인지 설명해주세요. (mark-sweep-compact, concurrency-sweep, garbage-first)
