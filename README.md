@@ -29,22 +29,22 @@
 ![제목 없음](https://user-images.githubusercontent.com/97837003/170873617-cc00b2aa-ebfc-408e-98b3-385b26a13ecd.jpg)
 
 - Class Loader
-- 
+
 
 JVM 내로 클래스 파일을 로드하고, 링크를 통해 배치하는 작업을 수행하는 모듈. 런타임 시에 동적으로 클래스를 로드한다.
 
 - Execution Engine
-- 
+
 
 클래스 로더를 통해 JVM 내의 Runtime Data Area에 배치된 바이트 코드들을 명렁어 단위로 읽어서 실행. 최초 JVM이 나왔을 당시에는 인터프리터 방식이었기때문에 속도가 느리다는 단점이 있었지만 JIT 컴파일러 방식을 통해 이 점을 보완. JIT는 바이트 코드를 어셈블러 같은 네이티브 코드로 바꿈으로써 실행이 빠르지만 역시 변환하는데 비용이 발생함. 이 같은 이유로 JVM은 모든 코드를 JIT 컴파일러 방식으로 실행하지 않고, 인터프리터 방식을 사용하다가 일정한 기준이 넘어가면 JIT 컴파일러 방식으로 실행.
 
 - Garbage Collector
-- 
+
 
 Garbage Collector(GC)는 힙 메모리 영역에 생성된 객체들 중에서 참조되지 않은 객체들을 탐색 후 제거하는 역할을 한다. 이때, GC가 역할을 하는 시간은 언제인지 정확히 알 수 없다.
 
 - Runtime Data Area
-- 
+
 
 JVM의 메모리 영역으로 자바 애플리케이션을 실행할 때 사용되는 데이터들을 적재하는 영역. 이 영역은 크게 Method Area, Heap Area, Stack Area, PC Register, Native Method Stack로 나뉜다.
 
