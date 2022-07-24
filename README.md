@@ -1,4 +1,4 @@
-# Java (자바 관련 질문. 추가중)
+# Java
 
 ### Q. Managed - Unmanaged 언어의 차이는 무엇이고 어떤 장, 단점이 있나요?
   
